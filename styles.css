@@ -22,10 +22,10 @@ body {
 }
 
 main {
-  background: url('images/background.svg');
-  width: 375px;
-  height: 812px;
-  color: var(--grey);
+  background: url('images/background.svg') no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
@@ -33,6 +33,8 @@ main {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+
+  color: var(--grey);
 }
 
 .avatar {
